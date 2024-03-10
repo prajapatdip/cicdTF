@@ -7,7 +7,7 @@ image:
 variables:
     AWS_ACCESS_KEY_ID: ${MY_AWS_ACCESS_KEY}
     AWS_SECRET_ACCESS_KEY: ${MY_SECRET_KEY}
-    AWS_DEFAULT_REGION: "ap-south-1"
+    AWS_DEFAULT_REGION: <region>
 
 before_script:
     - terraform --version
